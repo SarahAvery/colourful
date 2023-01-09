@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 const ColoursStyled = styled.div`
-  /* width: 600px; */
   height: calc(80vh - 40px);
 
   margin: 0 auto;
@@ -19,8 +18,6 @@ const ColoursStyled = styled.div`
       fill: transparent;
     }
   }
-
-  /* SVG Rules */
 `;
 
 export default ColoursStyled;

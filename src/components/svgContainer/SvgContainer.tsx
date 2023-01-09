@@ -18,7 +18,6 @@ const SvgContainer = () => {
 
   return (
     <>
-      {/* <div>Page: {currentSheetConfig.name}</div> */}
       <SvgContainerStyled>
         <React.Suspense fallback={<p>Loading...</p>}>
           <Page sheet={currentSheetConfig} fillColour={fillColour} />
