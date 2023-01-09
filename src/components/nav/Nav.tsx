@@ -1,5 +1,5 @@
 import NavStyled from "./styles";
-import bob from "../../assests/imgs/bob.png";
+import bob from "../../../src/bob.png";
 
 const Nav = () => {
   return (

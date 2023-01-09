@@ -8,7 +8,7 @@ export const sheetConfig: SheetType[] = [
     name: "Mickey Mouse",
     fileName: "MickeyMouse.tsx",
     component: SUPPORTED_COMPONENTS.MICKEY_MOUSE,
-    jpg: "../img/mickey.jpg"
+    jpg: "/images/mickey.jpg"
   },
   {
     id: "flowers",
@@ -16,7 +16,7 @@ export const sheetConfig: SheetType[] = [
     name: "Flowers",
     fileName: "Flowers.tsx",
     component: SUPPORTED_COMPONENTS.FLOWERS,
-    jpg: "../img/flowers.jpg"
+    jpg: "/images/flowers.jpg"
   },
   {
     id: "relax",
@@ -24,7 +24,7 @@ export const sheetConfig: SheetType[] = [
     name: "Relax",
     fileName: "Relax.tsx",
     component: SUPPORTED_COMPONENTS.RELAX,
-    jpg: "../img/relax.jpg"
+    jpg: "/images/relax.jpg"
   },
   {
     id: "mandala",
@@ -32,6 +32,6 @@ export const sheetConfig: SheetType[] = [
     name: "Mandala",
     fileName: "Mandala.tsx",
     component: SUPPORTED_COMPONENTS.MANDALA,
-    jpg: "../img/mandala.jpg"
+    jpg: "/images/mandala.jpg"
   }
 ];
