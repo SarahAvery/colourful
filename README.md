@@ -14,6 +14,6 @@ Colouring pages with pastel pallet. Created SVG's from jpg/png by using `inkscap
 
 ![home](home.jpg)
 
-### quiz
+### page
 
 ![relax](relax.jpg)
