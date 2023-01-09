@@ -8,7 +8,6 @@ const HomeStyled = styled.div`
   ul {
     display: flex;
     flex-wrap: wrap;
-    /* border: 1px solid black; */
   }
 
   li {
@@ -44,6 +43,18 @@ const HomeStyled = styled.div`
       width: auto;
       height: 100px;
       padding: 5px;
+    }
+  }
+
+  @media (max-width: 520px) {
+    li {
+      width: 50%;
+    }
+  }
+
+  @media (max-width: 320px) {
+    li {
+      width: 100%;
     }
   }
 `;
